@@ -1,4 +1,4 @@
-var containsDuplicates = (nums) => {
+const containsDuplicates = (nums) => {
   const numSet = new Set();
 
   for (let i = 0; i < nums.length; i++) {
